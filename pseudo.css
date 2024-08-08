@@ -1,0 +1,15 @@
+a:link{
+    color: green;
+}
+
+a:active{
+    color: yellow;
+}
+input:focus{
+ border-radius: 5000px;
+ outline-color: aqua;
+ outline: none;
+}
+a:hover{
+    color: red;
+}

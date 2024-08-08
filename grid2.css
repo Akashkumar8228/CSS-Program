@@ -3,49 +3,43 @@
     margin: 0;
     box-sizing: border-box;
 }
-section {
-    width: 100vw;
-    height: 100vh;
-    background-color: rgb(67, 67, 221);
-    padding-top: 60px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-    flex-wrap: wrap;
+section{
+    height: 600px;
+    width: 600px;
+    border: 1px solid;
+    display: grid;
+    grid-template-areas: "cont1 cont1 "
+                          "cont1 cont1 "
+                          "cont2 cont3"
+                          "cont2 cont3"
+                          "cont2 cont4"
+                          "cont2 cont4"
+                          "cont5 cont5"
+                          "cont5 cont5"
+                          "cont5 cont5"
+                          "cont6 cont6";
+gap: 10px;
+}                       
+section div{
+    border: 1px solid;
+    margin: 0px;
+    box-sizing: border-boxś;
 }
-
-section h1 {
-    margin-bottom: 40px;
-    font-size: 30px;
-    color: whitesmoke;
-    font-weight: bolder;
-    letter-spacing: 1px;
-    font-family: cursive;
+.cont1{
+    grid-area: cont1;
 }
-
-.divContainer {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    margin-bottom: 40px;
-
+.cont2{
+    grid-area: cont2;
 }
-
-.divContainer div:nth-child(2) {
-    background-color: none !important;
+.cont3{
+    grid-area: cont3;
 }
-
-.contentbox1 {
-    width: 250px;
-    height: 215px;
-    border-radius: 10px;
-    background-color: whitesmoke;
-    margin: 0px 10px;
-    padding-left: 10px;
-    display: flex;
-    flex-direction: column;
-
-    justify-content: space-evenly;
-
+.cont4{
+    grid-area: cont4;
+}
+.cont5{
+    grid-area: cont5;
+}
+.cont6{
+    grid-area: cont6;
 }

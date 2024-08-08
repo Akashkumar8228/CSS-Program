@@ -1,0 +1,43 @@
+/* article{
+    height: 300px;
+    width: 300px !important;
+    border: 1px solid;
+    margin: 0 auto;
+    background-color:green;
+}
+section{
+    height: 180vh
+    width: 500px;
+    border: 1px solid;
+    margin: 0 auto;  
+    background-color:red;
+}
+div{
+    height: 100px;
+    width: 100px;
+    border: 1px solid;
+   background-color: blue;
+   position: fixed;
+    bottom: 40px;
+    left: 900px;
+} */
+section{
+    height: 180vh;
+    width: 100vw;
+    border: 1px solid;
+}
+article{
+    height: 200px;
+    width: 100vw;
+    border: 1px solid;
+
+}
+section article:first-child{
+    background-color: red;
+
+}
+section article:last-child{
+    background-color: rgb(68, 0, 255);
+    position: sticky;
+    top: 20px;
+}

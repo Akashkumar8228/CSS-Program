@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  #cont1 {
+    background-color: rgb(0, 115, 74);
+    height: 5vh;
+  }
+  
+  #cont2 {
+    height: 50px;
+  
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    align-content: center;
+    background-color: #c90e0e;
+  }
+  #cont2 a {
+      color: #f1fbf3;
+    font-size: 30px;
+    margin: 25px;
+    text-decoration: none;
+   
+  }
+  #cont2 a:hover {
+    color: rgb(151, 151, 52);
+  }
+  .icon {
+    height: 7vh;
+    width: 14vw;
+    /* background-color: aqua; */
+    background-image: url("./header_brand_logo_PE.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  #cont3 {
+    height: 7vh;
+    background-color: #f1fbf3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .Navlinks a {
+    margin: 10px;
+    text-decoration: none;
+    color: black;
+  }
+  .searchContainer {
+    height: 5vh;
+    width: 14vw;
+    border-bottom: 1px solid;
+  }
+  .searchContainer input {
+    height: 30px;
+    outline: none;
+    background-color: #f1fbf3;
+    border: none;
+  }
+  .Navlinks a:hover {
+    border-bottom: 1px solid red;
+  }
+  #cont4 {
+    display: flex;
+    overflow: scroll;
+  }
+  #cont4 a img{
+      height: 70vh;
+      width: 100vw;
+  }
+  #cont4::-webkit-scrollbar {
+    display: none;
+  }
+  #cont5{
+      display: flex;
+      overflow: scroll;
+  
+  }
+  #cont5::-webkit-scrollbar{
+      display: none;
+  }

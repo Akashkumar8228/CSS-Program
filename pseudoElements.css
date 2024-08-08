@@ -1,0 +1,12 @@
+p::first-line{
+    color: chartreuse;
+}
+p::before{
+    color: aqua;
+}
+p::marker{
+    color: blue;
+}
+p::selection{
+    color: chocolate;
+}

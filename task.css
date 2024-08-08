@@ -1,0 +1,13 @@
+ul li:first-child{
+    color: brown;
+}
+ul li:last-child{
+    color: darkgoldenrod;
+}
+ul li:nth-child(odd){
+color: aqua;
+}
+
+input:checked{
+    height: 50px;
+}

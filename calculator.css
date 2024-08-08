@@ -1,0 +1,56 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+section{
+    height: 600px;
+    width: 400px;
+    border: 1px solid;
+    border-radius: 20px;
+    background-color: rgb(247, 237, 245);
+    display: grid;
+    margin: auto;
+    justify-content: center;
+    padding: 20px;
+
+    grid-template-areas:
+"c1 c1 c1 c1"
+"c1 c1 c1 c1"
+"c2 c3 c4 c5"
+"c6 c7 c8 c9"
+"c10 c11 c12 c13"
+"c10 c11 c12 c13"
+"c14 c15 c16 c17"
+"c14 c15 c16 c17"
+"c18 c19 c20 c21"
+"c18 c19 c20 c21"
+"c22 c22 c23 c21"
+"c22 c22 c23 c21"
+gap: 10px;
+}
+
+section article{
+    border: 1px solid;
+    border-radius: 30px;
+    height: 100px;
+    width: 270px;
+    display: flex;
+    margin-top: 20px;
+    padding: 15px;
+    justify-content: right;
+    background-color: rgba(54, 53, 53, 0.288);
+    font-size: 70px;
+    font-weight: bolder;
+}
+
+section div {
+border: 1px solid;
+border-radius: 50px;
+display: flex;
+justify-content: center;
+box-shadow: 2px 2px 5px;
+background-color: hwb(331 69% 12%);
+font-size: 20px;
+}

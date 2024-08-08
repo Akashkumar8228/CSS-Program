@@ -1,0 +1,12 @@
+h1{
+    color:#0000ff;
+    text-align: center;
+    text-transform: capitalize;
+    text-shadow: 2px 5px 10px blue;
+    text-decoration:color aqua;
+    text-decoration-style: wavy;
+
+    }
+    p{
+    text-align-last: center;
+    }

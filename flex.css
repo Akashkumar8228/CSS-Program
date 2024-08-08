@@ -1,24 +1,21 @@
 *{
-    padding: 0;
+    padding: o;
     margin: 0;
-    box-sizing: border-box;
+    box-sizing:border-box;
 }
-
-section{
+.maincont{
     height: 500px;
     width: 500px;
     border: 1px solid;
     display: flex;
-    /* flex-direction: column-reverse; */
+   /*  flex-wrap: wrap-reverse; */
+    flex-direction:row-reverse;
     flex-wrap: wrap-reverse;
-    /* justify-content: space-around; */
-   
-    /* align-content: space-around; */
+    flex-direction: column-reverse; 
 }
 
-div{
-    height: 150px;
-    width: 150px;
+.maincont div{
+    height: 110px;
+    width: 110px;
     border: 1px solid;
-    font-size: xx-large;
 }

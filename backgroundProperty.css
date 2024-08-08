@@ -1,0 +1,17 @@
+article{
+    height: 500px;
+    width: 500px;
+    /* border: 1px solid; */
+    /* border-radius: 50%; */
+    /* background: conic-gradient */
+    background-image: url("./ai-generated-8705809_1280.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    overflow: auto;
+    color: aqua;
+    
+}  
+article::-webkit-scrollbar{
+    display:none
+}
