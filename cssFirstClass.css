@@ -1,0 +1,36 @@
+/* 
+
+# CSS = Cascading Style Sheet
+# css is the language which we used to style and align our html element.
+# in css realation is mandatory.
+# Father = Hakon wium lee praposed idea to w3c  = world wide web consortium from 1994
+# 1996 = css1
+# 1998 = css2
+# 2011 = css3
+
+Types of css
+1. Inline css
+2. Internal or Embedded css
+3. external css
+
+# First priority is go for inline css.
+# The first priority goes to inline css and after that it depends upon which is closer to it
+# !important it will gives the priority to the attribute like color, background color.
+    applied on all type of css
+
+   # Syntax of css: selector,property,value
+     P{     color:   blue};
+    selector{
+        proprtyName: value;
+        }
+    Selector  = selector are use to select html elements in css
+    TYPES OF CSS SELECTOR
+    There are five type of Selector
+    1. SIMPLE SELECTOR = 
+        IT HAS ALSO FIVE TYPE::
+        # id SELECTOR
+        # CLASS SELECTOR
+        # UNIVERSAL SELECTOR
+        # ELEMENT SELECTOR
+        # GROUPING SELECTOR
+*/

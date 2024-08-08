@@ -1,0 +1,32 @@
+.bucketHeader {
+    background-image:url(images/bg_header_bucket.png);
+    background-repeat:no-repeat;
+    background-position:top center;
+    height:46px;
+    margin:0px 0px 0px 0px;
+        padding:14px 0px 0px 18px;
+    }
+    
+    .bucketDetails {
+        background-image:url(images/bg_bucket.png);
+        background-repeat:no-repeat;
+        background-position:top center;
+        height:278px;
+        margin:0px 0px 0px 0px;
+        padding:0px;
+    }
+    
+    .bucketBottom p.cost {
+        font-size:28px;
+        font-weight:bold;
+        color:#335191;
+        margin:0px 0px 6px 0px;
+        padding:0px;
+    }
+    .bucketBottom{
+        text-align:center;
+    
+    }
+    a img.button {
+        border:none;
+    }

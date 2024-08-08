@@ -1,0 +1,24 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+section{
+    height: 500px;
+    width: 500px;
+    border: 1px solid;
+    display: flex;
+    /* flex-direction: column-reverse; */
+    flex-wrap: wrap-reverse;
+    /* justify-content: space-around; */
+   
+    /* align-content: space-around; */
+}
+
+div{
+    height: 150px;
+    width: 150px;
+    border: 1px solid;
+    font-size: xx-large;
+}

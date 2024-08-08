@@ -1,0 +1,23 @@
+/* Id selector */
+#Heading1{
+    color: chartreuse;
+    background: #461081;
+}
+.head1{
+    color: #c23a3a;
+    background-color: #1dcdc4;
+}
+
+h2{
+    color: blueviolet;
+    background-color: #9e115f;
+}
+
+*{
+    color: #9e115f;
+    background-color: #349fe7;
+    margin: 5px;
+
+}
+/*  grouping selector create group by using comma , 
+ */

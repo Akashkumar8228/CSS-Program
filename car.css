@@ -1,0 +1,38 @@
+i{
+    font-size: 140px;
+   
+}
+
+#car1:hover{
+    transform: translate(1200px);
+    transition: all 5s 2s;
+    transition-timing-function: linear;
+}
+
+#car2:hover{
+    transform: translate(1200px);
+    transition: all 5s 2s;
+    transition-timing-function: ease;
+}
+#car3:hover{
+    transform: translate(1200px);
+    transition: all 5s 2s;
+    transition-timing-function: ease-in;
+}
+#car4:hover{
+    transform: translate(1200px);
+    transition: all 8s 2s;
+    transition-timing-function: ease-in-out;
+}
+#car5:hover{
+    transform: translate(1200px);
+    transition: all 5s 2s;
+    transition-timing-function: ease-out;
+}
+
+/* 
+linear constant speed
+ease = fast speed
+ease in =  slow then fast
+ease in out= fast slow fast slow
+*/

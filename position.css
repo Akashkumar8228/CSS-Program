@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+/* section{
+    height: 600px;
+    width: 800px;
+    border: 1px solid;
+    background-color: blueviolet;
+    margin: 0 auto;
+    Position propery use to specify any html element
+    WE cant change static position
+    position: static;
+    position: relative;
+    position relative will take the reference of its current position
+    top: 400px;
+    left: 600px;
+} */
+/* div{
+    height: 100px;
+    width: 100px;
+    background-color: #990d0d;
+    position: fixed;
+    left: 1100px;
+    top: 650px;
+    
+} */
+/* vh = viewport height */
+ /* .webpage{
+    
+    width: 100%;
+    background-color: rgb(13, 174, 228);
+}
+div{
+    height: 200px;
+    width: 100%;
+    border: 2px solid;
+    background-color: brown;
+}
+nav{
+    height: 50px;
+    width: 100%;
+    background-color: chartreuse;
+    position: sticky;
+    top: 0;   
+}  */
+/* Position sticky is working as position relative upto certain point, once it reached to that point it become position fixed. */
+
+div{
+    height: 200px;
+    width: 200px;
+
+}
+.box1{
+    background-color: red;
+    position: relative;
+    /* left: 300px;
+    top: 200px; */
+    
+}
+.box2{
+    background-color: rgb(48, 21, 159);
+    position: relative;
+    /* left: 300px;
+    z-index:6; */
+}
+.box3{
+    background-color: rgb(3, 175, 61);
+    position: relative;
+     left: 300px;
+    top: -200px; 
+
+}
+.box4{
+    background-color: rgb(191, 11, 92);
+    position: relative;
+    left: 300px;
+    top: -400px;
+}

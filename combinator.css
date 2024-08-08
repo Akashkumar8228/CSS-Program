@@ -1,0 +1,34 @@
+/* Combinator selector
+   => combinator selector is used to target element based on the relation between the element
+    => 4 types
+
+    */
+
+
+    /* DESCENDENT SELECTOR SYMBOL(space) = take a refernece from its ansister*/
+    /* section article h1{
+        color: red;
+    }
+
+    section main h2{
+        color: aqua;
+    } */
+
+    /* CHILD SELECTOR SYMBOL(>) = take a refernece from sibling*/
+    /* article > h1 {
+        color: blueviolet;
+    }
+    main > h2 {
+        color:chartreuse;
+    } */
+     
+    /* ADJACENT SIBLING SELECTOR Symbol(+) take a refernece from adjacent sibling*/
+
+    /* div + p{
+        color: aqua;
+    } */
+
+    /* GENERAL SIBILING SELECTOR (~) take a refernece from general sibling*/
+    div ~ p{
+        color: aqua;
+    }

@@ -1,0 +1,50 @@
+.p1{
+    height: 200px;
+    width: 200px;
+    border: 1px solid;
+    background:conic-gradient(red 0deg 135deg, green 135deg 180deg , blue 180deg 270deg, pink 270deg 360deg);
+}
+
+.p2{
+    height: 200px;
+    width: 200px;
+    border: 1px solid;
+    background:conic-gradient(red 0deg 135deg, blue 135deg 225deg, pink 225deg 360deg);
+}
+.p3{
+    height: 200px;
+    width: 200px;
+    border: 1px solid;
+    background:conic-gradient(red 0deg 45deg, blue 45deg 135deg, pink 135deg 180deg,green 180deg 360deg);
+}
+.p4{
+    height: 200px;
+    width: 200px;
+    border: 1px solid;
+    background:conic-gradient(red 0deg 135deg, blue 135deg 180deg, pink 180deg 315deg, green 315deg 360deg);
+}
+
+.p5{
+    height: 200px;
+    width: 200px;
+    border: 1px solid;
+    background:conic-gradient(red 0deg 90deg, blue 90deg 135deg, pink 135deg 225deg, black 225deg 270deg, green 270deg 360deg);
+}
+.p6{
+    height: 200px;
+    width: 200px;
+    border: 1px solid;
+    background:conic-gradient(green 0deg 45deg,red 45deg 90deg, blue 90deg 270deg, pink 270deg 315deg, green 315deg 360deg );
+}
+.p7{
+    height: 200px;
+    width: 200px;
+    border: 1px solid;
+    background:conic-gradient(red 0deg 45deg, black 45deg 135deg, pink 135deg 180deg,yellow 180deg 225deg, blue 225deg 315deg, red 315deg 360deg);
+}
+.p8{
+    height: 200px;
+    width: 200px;
+    border: 1px solid;
+    background:conic-gradient(red 0deg 45deg, blue 45deg 90deg, pink 90deg 135deg,black 135deg 180deg, orange 180deg 225deg,yellow 225deg 270deg, maroon 270deg 315deg, green 315deg 360deg);
+}

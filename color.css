@@ -1,0 +1,50 @@
+h1{
+    /* hue saturated lightness alpha */
+   /* color:hsla(190, 95%, 48%,.2); */
+   color: #ee2727;
+   font-size: 35px;
+   text-align: center;
+   text-transform:uppercase;
+   text-shadow: 1px 1px 20px blue;
+   text-decoration-line: underline;
+   text-decoration-style: dotted;
+   letter-spacing: 10px;
+   word-spacing: 10px;
+}
+
+p{
+    text-indent: 200px;
+    /* text-align-last: center; */
+
+}
+
+span{
+    word-break: break-all;
+}
+
+/* section{
+    height: 200px;
+    width: 500px;
+    border: 1px solid;
+    background:radial-gradient( red, green, blue);
+} */
+
+/* section{
+    height: 200px;
+    width: 500px;
+    border: 1px solid;
+    background: linear-gradient(to top ,maroon, rgb(170, 174, 170), rgb(10, 163, 31));
+} */
+
+section{
+    height: 800px;
+    width: 900px;
+    border: 1px solid;
+    /* background: conic-gradient(red 0deg 90deg, green 90deg 180deg , blue 180deg 360deg); */
+    background-image: url(./ai-generated-8705809_1280.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+

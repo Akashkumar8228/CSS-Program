@@ -1,0 +1,19 @@
+section{
+    height: 300px;
+    width: 500px;
+    border: 1px solid;
+    margin: 0px auto;
+    position: relative;
+    top: 150px;
+}
+
+div{
+    height: 150px;
+    width: 300px;
+    border: 1px solid;
+    margin: 0px auto;
+    position: relative;
+    top: 100px;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+}

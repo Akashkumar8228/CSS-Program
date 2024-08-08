@@ -1,0 +1,80 @@
+/*  */
+input[type="text"] 
+{
+    width: 250px;
+    background-color: red;
+}
+ /*  PSEUDO CLASSES 
+    =>A CSS pseudo-class is a keyword added to a selector that specify a special state of a selector element
+
+        Selector:
+            pseudo-class{
+                property:value
+        }
+
+        DYNAMIC PSEUDO CLASS
+        1. LINK
+        2. VISITED
+        3. ACTIVE
+        4. FOCUS
+        5. HOvER
+
+ */
+/* 
+ #focusText:focus{
+    background-color: #ae166c;
+ } */
+
+ /* 
+    hover = when we go the text color will change automatically
+  */
+/* h1:hover{
+    color:rgb(17, 216, 170);
+    background-color: blueviolet;
+    
+}  */
+
+/* ol li:nth-child(3){
+    color: rgb(243, 90, 19);
+}
+
+ol li:first-of-type{
+    color: rgb(19, 178, 10);
+} */
+
+/*       PSEUDO ELEMENT SELECTOR        */
+
+body{
+    background-color: #a02e2e;
+}
+
+p::first-line{
+    color: rgb(213, 20, 20);
+}
+
+p::first-letter{
+    font-size: 50px;
+}
+
+P::before{
+    content:"🤧" "😎" ;
+}
+
+p::after{
+    content: "😅,🙄";
+}
+
+p::selection{
+    background-color: rgb(42, 165, 136);
+}
+
+ol li::marker{
+    content:"# ";
+    color: aqua;
+    font-size:xx-large;
+}
+
+h2
+{
+    color:rgba(171, 205,239, 0.3)
+}
